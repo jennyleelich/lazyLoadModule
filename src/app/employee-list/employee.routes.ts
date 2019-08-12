@@ -4,7 +4,7 @@ import { FemaleEmployeeComponent } from './female-employee/female-employee.compo
 
 export const EMPLOYEE_ROUTES = [
     {
-        path: 'employee',
+        path: '',
         component: EmployeeListComponent,
         children: [
             {

@@ -2,7 +2,7 @@ import { AnnoucementListComponent } from './annoucement-list.component';
 
 export const ANNOUNCEMENT_ROUTES = [
    {
-    path: 'announcement',
+    path: '',
     component: AnnoucementListComponent
    }
 ]

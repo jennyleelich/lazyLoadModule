@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AnnoucementListModule } from './annoucement-list/annoucement-list.module';
-import { EmployeeListModule } from './employee-list/employee-list.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +11,6 @@ import { EmployeeListModule } from './employee-list/employee-list.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AnnoucementListModule,
-    EmployeeListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
